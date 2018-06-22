@@ -172,7 +172,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 3rem;
-  margin-left: -5.5rem;
+  margin-left: -6rem;
   transition: all .3s; }
   .search:focus-within {
     transform: translateY(-2px);
