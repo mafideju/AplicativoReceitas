@@ -5,7 +5,8 @@ Usado para facilitar a construção de códigos, separando em três partes.
 
 >> Modelo 
 Trata dos dados básicos do aplicativo e do controle sobre esses dados.
-Relacionado à lógica, interage com a base de dados (onde vai a chamada para o API por exemplo), se comunica com o Controle
+Relacionado à estrutura lógica, interage com a base de dados (onde vai a chamada para o API por exemplo), se comunica com o Controle.
+
 
 >> Visão 
 Trata da interface da aplicação. Renderiza os dados do Modelo afim de melhorar a experiência de navegação.
