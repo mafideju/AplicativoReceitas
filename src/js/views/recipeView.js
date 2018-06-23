@@ -46,14 +46,14 @@ export const renderRecipe = recipe => {
                     <use href="img/icons.svg#icon-stopwatch"></use>
                 </svg>
                 <span class="recipe__info-data recipe__info-data--minutes">${recipe.time}</span>
-                <span class="recipe__info-text"> minutes</span>
+                <span class="recipe__info-text"> Minutos</span>
         </div>
         <div class="recipe__info">
             <svg class="recipe__info-icon">
                 <use href="img/icons.svg#icon-man"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--people">${recipe.servings}</span>
-            <span class="recipe__info-text"> servings</span>
+            <span class="recipe__info-text"> Porções</span>
 
             <div class="recipe__info-buttons">
                 <button class="btn-tiny btn-decrease">
@@ -83,7 +83,7 @@ export const renderRecipe = recipe => {
             ${recipe.ingredients.map(el => createIngredient(el)).join('')}
         </ul>
             
-        <button class="btn-small recipe__btn">
+        <button class="btn-small recipe__btn recipe__btn--add">
             <svg class="search__icon">
                 <use href="img/icons.svg#icon-shopping-cart"></use>
             </svg>
